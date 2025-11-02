@@ -159,8 +159,11 @@ You have 3 workers and 4 jobs with the following costs:
 Minimum total cost = 10.200
 
 Job 0 -> Worker 1 (Cost = 6.20)
+
 Job 1 -> Worker 0 (Cost = 2.50)
+
 Job 2 -> Worker 2 (Cost = 1.50)
+
 Job 3 -> unassigned
 
 
