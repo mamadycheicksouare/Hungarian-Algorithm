@@ -15,7 +15,6 @@ A high-performance C implementation of the Hungarian algorithm (Kuhn-Munkres alg
 - [Example](#example)
 - [Algorithm Complexity](#algorithm-complexity)
 - [Technical Details](#technical-details)
-- [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
 
@@ -136,10 +135,10 @@ int main() {
 
 **Output:**
 ```
-Minimum total cost = 11.800
-Job 0 -> Worker 2 (Cost = 5.00)
+Minimum total cost = 10.200
+Job 0 -> Worker 1 (Cost = 6.20)
 Job 1 -> Worker 0 (Cost = 2.50)
-Job 2 -> Worker 1 (Cost = 3.00)
+Job 2 -> Worker 2 (Cost = 1.50)
 Job 3 -> unassigned
 ```
 
@@ -157,12 +156,13 @@ You have 3 workers and 4 jobs with the following costs:
 
 ### Optimal Solution
 
-- Worker 0 → Job 1 (cost: 2.5)
-- Worker 1 → Job 2 (cost: 3.0)
-- Worker 2 → Job 0 (cost: 5.0)
-- Job 3 → Unassigned
+Minimum total cost = 10.200
 
-**Total Cost:** 10.5
+Job 0 -> Worker 1 (Cost = 6.20)
+Job 1 -> Worker 0 (Cost = 2.50)
+Job 2 -> Worker 2 (Cost = 1.50)
+Job 3 -> unassigned
+
 
 ## ⚡ Algorithm Complexity
 
@@ -205,23 +205,11 @@ The implementation follows strict memory management:
 - **Zero costs**: Handled correctly
 - **Negative costs**: Not supported (algorithm minimizes positive costs)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Areas for Contribution
+### Some Possible Improvments
 
 - Add maximization variant (maximum weight matching)
 - Support for negative costs
 - Sparse matrix optimization
-- Python/C++ bindings
-- Comprehensive test suite
 - Performance benchmarks
 
 ## 📄 License
@@ -232,9 +220,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mamady Cheick Souare**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [mamadycheicksouare](https://github.com/mamadycheicksouare)
+- Email: mamadycheicksouare@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -246,7 +233,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Kuhn, H. W. (1955). "The Hungarian Method for the assignment problem". *Naval Research Logistics Quarterly*.
 - Munkres, J. (1957). "Algorithms for the Assignment and Transportation Problems". *Journal of the Society for Industrial and Applied Mathematics*.
-
----
-
-**⭐ If you find this implementation useful, please consider giving it a star!**
