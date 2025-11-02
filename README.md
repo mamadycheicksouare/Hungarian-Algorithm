@@ -1,6 +1,3 @@
-# Hungarian-Algorithm
-Hungarian-Algorithm implementation for assignment problems.
-
 # Hungarian Algorithm Implementation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -208,6 +205,15 @@ The implementation follows strict memory management:
 - **Zero costs**: Handled correctly
 - **Negative costs**: Not supported (algorithm minimizes positive costs)
 
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ### Areas for Contribution
 
@@ -215,6 +221,8 @@ The implementation follows strict memory management:
 - Support for negative costs
 - Sparse matrix optimization
 - Python/C++ bindings
+- Comprehensive test suite
+- Performance benchmarks
 
 ## 📄 License
 
@@ -224,12 +232,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mamady Cheick Souare**
 
-- GitHub: [mamadycheicksouare](https://github.com/mamadycheicksouare)
-- Email: mamadycheicksouare@gmail.com
+- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: your.email@example.com
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
 ## 🙏 Acknowledgments
 
 - Original algorithm by Harold Kuhn (1955)
+- Implementation inspired by competitive programming community
 - Tested in production environments during internship projects
 
 ## 📖 References
