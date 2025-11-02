@@ -91,7 +91,6 @@ gcc -g hungarian.c -o hungarian
 #include <stdio.h>
 #include <stdlib.h>
 
-// Your hungarian.c functions here...
 
 int main() {
     int n = 3;  // number of workers
